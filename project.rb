@@ -37,5 +37,10 @@ puts str
 
 x = ["foo", "bar", "baz"]
 y = x.join("\t").split(/\t/)
-p x == y  
+p x == y
 # \tはタブのこと
+
+ar = %w"aa bb cc"
+ar.each_with_index do |v,i|
+  puts "インデックス番号は#{i}番目は#{v}です"
+endこんにちわ
